@@ -4,11 +4,11 @@ using namespace std;
 
 vector<TrainSpecification> TrainTypeManager::getAllTrainTypes() {
     return {
-        {"Thomas Express", PASSENGER, 120, 250, "🔵"},
-        {"Cargo King", FREIGHT, 80, 0, "🟤"},
+        {"Andhra Express", PASSENGER, 120, 250, "🔵"},
+        {"Super Vasuki", FREIGHT, 80, 0, "🟤"},
         {"Lightning Bolt", EXPRESS, 250, 150, "🔴"},
         {"Heavy Hauler", CARGO, 90, 0, "🟢"},
-        {"Shinkansen", BULLET_TRAIN, 320, 400, "⚪"}
+        {"Vande Bharat", BULLET_TRAIN, 320, 400, "⚪"}
     };
 }
 
